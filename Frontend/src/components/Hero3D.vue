@@ -28,7 +28,7 @@ let isDeleting = false;
 let typeInterval: any;
 
 const typeEffect = () => {
-    const currentPhrase = phrases[phraseIndex];
+    const currentPhrase = phrases[phraseIndex] || '';
     
     if (isDeleting) {
         typewriterText.value = currentPhrase.substring(0, charIndex - 1);

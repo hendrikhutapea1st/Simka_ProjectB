@@ -56,14 +56,14 @@ const products = [
         
 
         <div class="md:col-span-2 row-span-2 group relative rounded-[40px] overflow-hidden bg-white">
-            <img :src="products[0].image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="" loading="lazy">
+            <img :src="products[0]?.image" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" alt="" loading="lazy">
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent p-8 flex flex-col justify-end">
                 <div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                    <h3 class="text-3xl font-display font-bold text-white mb-2">{{ products[0].name }}</h3>
-                    <p class="text-white/80 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">{{ products[0].desc }}</p>
+                    <h3 class="text-3xl font-display font-bold text-white mb-2">{{ products[0]?.name }}</h3>
+                    <p class="text-white/80 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">{{ products[0]?.desc }}</p>
                     <div class="flex justify-between items-center bg-white/20 backdrop-blur-md rounded-full p-2 pr-6 w-max">
                         <div class="w-10 h-10 rounded-full bg-sky flex items-center justify-center text-moss font-bold text-sm">IDR</div>
-                        <span class="text-xl font-bold text-white ml-3">{{ products[0].price }}</span>
+                        <span class="text-xl font-bold text-white ml-3">{{ products[0]?.price }}</span>
                     </div>
                 </div>
             </div>
@@ -74,12 +74,12 @@ const products = [
 
 
         <div class="md:col-span-1 row-span-2 group relative rounded-[40px] overflow-hidden bg-moss">
-            <img :src="products[1].image" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" alt="" loading="lazy">
+            <img :src="products[1]?.image" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" alt="" loading="lazy">
             <div class="absolute bottom-0 left-0 w-full p-6">
                  <div class="bg-white p-6 rounded-3xl">
-                    <h3 class="text-xl font-bold text-moss mb-1">{{ products[1].name }}</h3>
+                    <h3 class="text-xl font-bold text-moss mb-1">{{ products[1]?.name }}</h3>
                     <div class="flex justify-between items-center mt-3">
-                        <span class="text-lg font-bold text-moss">{{ products[1].price }}</span>
+                        <span class="text-lg font-bold text-moss">{{ products[1]?.price }}</span>
                         <button class="w-8 h-8 rounded-full border border-moss flex items-center justify-center hover:bg-moss hover:text-white transition-colors">
                             <Plus class="w-4 h-4" />
                         </button>
@@ -89,7 +89,7 @@ const products = [
         </div>
 
 
-        <div v-for="(item, i) in products.slice(2)" :key="item.id" class="md:col-span-1 row-span-1 group relative rounded-[40px] overflow-hidden bg-white border border-moss/5 hover:border-moss/20 transition-colors">
+        <div v-for="item in products.slice(2)" :key="item.id" class="md:col-span-1 row-span-1 group relative rounded-[40px] overflow-hidden bg-white border border-moss/5 hover:border-moss/20 transition-colors">
              <div class="p-6 h-full flex flex-col justify-between">
                 <div class="flex justify-between items-start">
                     <h3 class="text-lg font-bold text-moss leading-tight">{{ item.name }}</h3>
