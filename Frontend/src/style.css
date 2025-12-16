@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    /* Fresh Sky Theme Applied */
+    @apply bg-cream text-moss;
+}
+
+::selection {
+    background-color: #A0D2EB;
+    /* Sky Blue */
+    color: #2D3B2D;
+    /* Moss Green */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Syne', sans-serif;
+}
