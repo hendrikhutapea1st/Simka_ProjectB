@@ -11,10 +11,7 @@ body {
 }
 
 ::selection {
-    background-color: #A0D2EB;
-    /* Sky Blue */
-    color: #2D3B2D;
-    /* Moss Green */
+    @apply bg-sky text-moss;
 }
 
 h1,

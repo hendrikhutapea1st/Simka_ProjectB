@@ -7,18 +7,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Modern Organic Palette
+        // Fresh & Light Palette
         'moss': {
-          DEFAULT: '#2D3B2D', // Deep Dark Green
-          light: '#3E4F3E',
+          DEFAULT: '#1E5631', // Deep Forest Green (Fresh & Serious)
+          light: '#4CA068',   // Fresh Leaf Green
         },
         'sky': {
-          DEFAULT: '#A0D2EB', // Light Sky Blue (Biru Langit Muda)
-          dim: '#89C2D9',
+          DEFAULT: '#E0F2FE', // Very Pale Fresh Blue
+          dim: '#BAE6FD',     // Clear Sky Blue
         },
         'cream': {
-          DEFAULT: '#F7F5F0', // Warm Off-White
-          dark: '#EBE9E1',
+          DEFAULT: '#FAFCF9', // Cool Mint-Tinted White
+          dark: '#F0F7F4',    // Pale Mist
         },
       },
       fontFamily: {

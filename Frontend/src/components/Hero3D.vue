@@ -105,38 +105,38 @@ onUnmounted(() => {
 
 
         <div class="flex flex-wrap gap-3 mt-6 mb-4">
-            <a href="https://wa.me/6281262662497" target="_blank" class="px-5 py-2.5 rounded-full bg-[#6B8E6B] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-lg hover:-translate-y-0.5">
+            <a href="https://wa.me/6281262662497" target="_blank" class="px-5 py-2.5 rounded-full bg-moss-light text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-lg hover:-translate-y-0.5">
                 <MessageCircle class="w-4 h-4" /> Pesan Via Admin 1
             </a>
-            <a href="https://wa.me/6289508284808" target="_blank" class="px-5 py-2.5 rounded-full bg-[#6B8E9B] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-lg hover:-translate-y-0.5">
+            <a href="https://wa.me/6289508284808" target="_blank" class="px-5 py-2.5 rounded-full bg-sky-dim text-moss font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-lg hover:-translate-y-0.5">
                 <MessageCircle class="w-4 h-4" /> Pesan Via Admin 2
             </a>
             
 
             <div class="relative group">
-                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-[#D97979] text-[9px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap shadow-md border border-[#D97979]/30 transition-transform group-hover:scale-110 z-10">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-[#FF6B6B] text-[9px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap shadow-md border border-[#FF6B6B]/30 transition-transform group-hover:scale-110 z-10">
                     Diskon s/d 25%
                 </span>
-                <a href="https://gofood.co.id/medan/restaurant/simka-fresh-pajak-cempaka-jl-cempaka-6a22dc19-3fcd-4025-900a-6fc76cbf8fb7" class="px-5 py-2.5 rounded-full bg-[#D97979] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-sm hover:-translate-y-0.5">
+                <a href="https://gofood.co.id/medan/restaurant/simka-fresh-pajak-cempaka-jl-cempaka-6a22dc19-3fcd-4025-900a-6fc76cbf8fb7" class="px-5 py-2.5 rounded-full bg-[#FF6B6B] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-sm hover:-translate-y-0.5">
                     <ShoppingBag class="w-4 h-4" /> GOFOOD
                 </a>
             </div>
 
             <div class="relative group">
-                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-[#8DB380] text-[9px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap shadow-md border border-[#8DB380]/30 transition-transform group-hover:scale-110 z-10">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-[#4ADE80] text-[9px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap shadow-md border border-[#4ADE80]/30 transition-transform group-hover:scale-110 z-10">
                     Diskon s/d 35%
                 </span>
-                <a href="https://r.grab.com/g/2-2-6-C6CTGULVC62XRN" class="px-5 py-2.5 rounded-full bg-[#8DB380] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-sm hover:-translate-y-0.5">
+                <a href="https://r.grab.com/g/2-2-6-C6CTGULVC62XRN" class="px-5 py-2.5 rounded-full bg-[#4ADE80] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-sm hover:-translate-y-0.5">
                     <ShoppingBag class="w-4 h-4" /> GRABMART
                 </a>
             </div>
 
 
             <div class="relative group">
-                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-[#D99A6C] text-[9px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap shadow-md border border-[#D99A6C]/30 transition-transform group-hover:scale-110 z-10">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-[#FF9F43] text-[9px] font-bold px-2 py-0.5 rounded-full whitespace-nowrap shadow-md border border-[#FF9F43]/30 transition-transform group-hover:scale-110 z-10">
                     Diskon s/d 50%
                 </span>
-                <a href="https://id.shp.ee/BRm3M58" class="px-5 py-2.5 rounded-full bg-[#D99A6C] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-sm hover:-translate-y-0.5">
+                <a href="https://id.shp.ee/BRm3M58" class="px-5 py-2.5 rounded-full bg-[#FF9F43] text-white font-bold text-sm hover:contrast-125 transition-all flex items-center gap-2 shadow-sm hover:-translate-y-0.5">
                     <ShoppingBag class="w-4 h-4" /> SHOPEE
                 </a>
             </div>

@@ -29,7 +29,7 @@ const toggle = (index: number) => {
 </script>
 
 <template>
-  <section class="py-24 bg-cream">
+  <section class="py-24 bg-white">
     <div class="container mx-auto px-6 max-w-3xl">
         <div class="text-center mb-16">
             <h2 class="text-4xl font-display font-bold text-moss mb-4">FAQ.</h2>

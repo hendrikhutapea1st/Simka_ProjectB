@@ -22,7 +22,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <main class="font-sans antialiased text-slate-800 bg-cream selection:bg-lime selection:text-moss">
+  <main class="font-sans antialiased text-moss bg-cream selection:bg-sky selection:text-moss">
 
     <Navbar />
 
