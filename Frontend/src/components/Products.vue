@@ -4,34 +4,34 @@ import { ArrowUpRight, Plus } from 'lucide-vue-next';
 const products = [
   {
     id: 1,
-    name: 'Signature Fruit Salad',
-    price: '35K',
+    name: 'Salad Buah Premium + Segar',
+    price: 'Mulai 35K',
     desc: 'Creamy dressing, premium cheddar.',
-    image: '/images/Buah Potong_UP.webp',
+    image: '/images/Buah Potong_UP.jpg',
     type: 'large'
   },
   {
     id: 2,
-    name: 'Gift Parcel A',
-    price: '250K',
+    name: 'Parcel Buah + Susu',
+    price: 'Mulai dari 50K',
     desc: 'Perfect for special moments.',
-    image: '/images/Promo 2_UP.png',
+    image: '/images/ParcelSusu_UP.jpg',
     type: 'tall'
   },
   {
     id: 3,
-    name: 'Fuji Apple',
-    price: '45K',
+    name: 'Apple Fuji',
+    price: 'Mulai dari 30K',
     desc: 'Sweet & crunchy per kg.',
     image: '/images/Apel Fuji.png',
     type: 'small'
   },
   {
     id: 4,
-    name: 'Vietnam Roll',
-    price: '25K',
+    name: 'Buah Potong Mix',
+    price: 'Mulai dari 15K',
     desc: 'Healthy snack option.',
-    image: '/images/Photo 2_UP.png',
+    image: '/images/Buah Potong_UP.webp',
     type: 'small'
   },
 ];

@@ -4,6 +4,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 
 const heroImages = [
     '/images/Photo 1_Up.png',
+    '/images/Nanas_UP.jpg',
     '/images/Apel Fuji.png',
     '/images/Jeruk Medan_UP.png',
     '/images/Mangga Harum Manis_UP.png'
@@ -87,11 +88,11 @@ onUnmounted(() => {
         <div class="space-y-2">
             <div class="flex items-center gap-3">
                 <span class="w-12 h-[1px] bg-moss/50"></span>
-                <span class="text-moss/60 uppercase tracking-widest text-xs font-bold">Est. 2025</span>
+                <span class="text-moss/60 uppercase tracking-widest text-xs font-bold">Sejak 2023</span>
             </div>
             <h1 class="text-6xl md:text-8xl font-display font-bold text-moss leading-[0.9] tracking-tighter h-[3.6em] md:h-[2.7em]">
                 SIMKA BUAH <br>
-                <span class="italic font-light">KOTA MEDAN</span> <br>
+                <span class="italic font-light">MEDAN</span> <br>
                 <span class="text-[28px] md:text-[40px] block mt-2 text-moss/90">
                     {{ typewriterText }}<span class="animate-pulse">|</span>
                 </span>

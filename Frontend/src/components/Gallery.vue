@@ -2,14 +2,24 @@
 import { Instagram } from 'lucide-vue-next';
 
 const images = [
+    '/images/Apel Fuji.png',
+    '/images/Apel Hijau_UP.jpg',
+    '/images/Apel Merah_UP.jpg',
+    '/images/Buah Potong_UP.jpg',
+    '/images/Buah Potong_UP.webp',
+    '/images/Jeruk Medan_UP.png',
+    '/images/Mangga Harum Manis_UP.png',
+    '/images/Nanas_UP.jpg',
+    '/images/ParcelSusu_UP.jpg',
+    '/images/Pepaya_UP.jpg',
     '/images/Photo 1_Up.png',
     '/images/Photo 2_UP.png',
-    '/images/Simka Buah Medan_UP.jpg',
     '/images/Photo 3_UP.png',
     '/images/Photo 4_UP.png',
     '/images/Promo 1_UP.png',
-    '/images/Apel Merah_UP.jpg',
-    '/images/Pepaya_UP.jpg'
+    '/images/Promo 2_UP.png',
+    '/images/Promo 3_UP.png',
+    '/images/Simka Buah Medan_UP.jpg'
 ];
 </script>
 

@@ -9,15 +9,15 @@ const faqs = [
     },
     {
         q: 'Apakah ada minimal pemesanan?',
-        a: 'Tidak ada minimal order! Namun, kami memberikan gratis ongkir untuk pemesanan di atas Rp 100.000 dalam radius 5km.'
+        a: 'Tidak ada minimal order! Gunakan, promo dari GOJEK, GRAB, SHOPEE untuk dapatkan diskon extra dan gratis ongkir. S&K Berlaku'
     },
     {
         q: 'Bisakah saya request buah tertentu?',
-        a: 'Tentu saja! Gunakan fitur "Mix Your Salad" atau hubungi kami via WhatsApp untuk mengkustomisasi buah favorit Anda.'
+        a: 'Tentu saja! Hubungi kami via WhatsApp untuk mengkustomisasi buah favorit Anda. Admin kami siap selalu melayani Anda'
     },
     {
         q: 'Apakah menerima pesanan untuk acara?',
-        a: 'Ya, kami melayani pesanan partai besar untuk acara kantor, pernikahan, dan pesta. Mohon hubungi kami H-3 sebelum acara.'
+        a: 'Ya, kami melayani pesanan partai kecil & besar untuk acara kantor, pernikahan, dan pesta. Mohon hubungi kami H-3 sebelum acara. Dadak ? Kami Siap Membantu Anda. S&K Berlaku'
     }
 ];
 
