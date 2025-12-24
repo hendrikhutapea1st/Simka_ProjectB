@@ -169,7 +169,7 @@ onUnmounted(() => {
          
 
          <div class="absolute bottom-10 -left-10 w-32 h-32 bg-cream rounded-full border border-moss/10 flex items-center justify-center p-4 animate-float z-20 shadow-xl">
-            <!-- Rotating Yellow Ring -->
+
             <div class="absolute inset-1 rounded-full border-[2px] border-dashed border-yellow-500/60 animate-[spin_10s_linear_infinite]"></div>
             <div class="text-center relative z-10">
                 <span class="block text-2xl font-display font-bold text-moss">100%</span>
